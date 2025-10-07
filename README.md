@@ -160,7 +160,7 @@ For the submission, you must provide a tarball (.tar.gz) that contains the follo
 
 **Kernel-Level Page Walk**
 - No complex algorithms are required. You can import the appropriate **kernel libraries** directly into your module.
-- A good starting point is to review kernel source code related to ```vmalloc``` (vmalloc.c), ```kmalloc``` (io.h), virtual addresses, and physical addresses.
+- A good starting point is to review kernel source code related to ```vmalloc``` ([vmalloc.c](https://elixir.bootlin.com/linux/v6.14/source/mm/vmalloc.c)), ```kmalloc``` ([io.h](https://elixir.bootlin.com/linux/v6.14/source/arch/x86/include/asm/io.h)), virtual addresses, and physical addresses.
 - I recommend using [Elixir Bootlin](https://elixir.bootlin.com/linux/v6.14/source/) to browse kernel code. Be sure to match your kernel version, as many APIs and implementations change or are deprecated between releases.
 
 **Kernel Logs**
