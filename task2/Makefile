@@ -3,7 +3,7 @@ CC = gcc
 
 CFLAGS = -Wall -g -O2
 
-TARGET = runner
+TARGET = memalloc
 
 OBJS = memalloc.o pagemap.o 
 
