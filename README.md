@@ -46,7 +46,7 @@ Using ```pagemap.c``` to translate the virtual addresses of your 1GB DRAM in ```
 
 Your C program must be invoked as follows:
 ```bash
-$ ./memalloc [-s <size>] [-o <output>]
+$ ./memalloc [-b <size>] [-o <output>]
 ```
 - **size**: the size that will be passed to one calloc call (4K or 1G).
 - **output**: the file that where the "VA -> PA" transition results will be written to.
